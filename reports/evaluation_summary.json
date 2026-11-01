@@ -1,0 +1,248 @@
+{
+  "selected_model": "Random Forest",
+  "scoring_model": "Random Forest",
+  "test_size": 1345,
+  "train_size": 5698,
+  "majority_baseline_accuracy": 0.7242,
+  "churn_prevalence": 0.26537,
+  "split": {
+    "strategy": "Stratified Bernoulli via sampleBy",
+    "seed": 42,
+    "train_fraction": 0.8,
+    "train_rows": 5698,
+    "test_rows": 1345,
+    "total_rows": 7043
+  },
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.8089,
+      "precision": 0.7375,
+      "recall": 0.4771,
+      "f1": 0.5794,
+      "roc_auc": 0.8369,
+      "pr_auc": 0.6665,
+      "weighted_precision": 0.8005,
+      "weighted_recall": 0.8089,
+      "overall_f1": 0.7945,
+      "confusion_matrix": [
+        [
+          911,
+          63
+        ],
+        [
+          194,
+          177
+        ]
+      ],
+      "best_params": {
+        "regParam": 0.01,
+        "elasticNetParam": 0.5
+      },
+      "fit_seconds": 145.24
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 0.7755,
+      "precision": 0.6283,
+      "recall": 0.4555,
+      "f1": 0.5281,
+      "roc_auc": 0.7154,
+      "pr_auc": 0.46,
+      "weighted_precision": 0.7615,
+      "weighted_recall": 0.7755,
+      "overall_f1": 0.7632,
+      "confusion_matrix": [
+        [
+          874,
+          100
+        ],
+        [
+          202,
+          169
+        ]
+      ],
+      "best_params": {
+        "maxDepth": 5,
+        "impurity": "gini"
+      },
+      "fit_seconds": 5.55
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.7836,
+      "precision": 0.66,
+      "recall": 0.4447,
+      "f1": 0.5314,
+      "roc_auc": 0.8295,
+      "pr_auc": 0.6502,
+      "weighted_precision": 0.77,
+      "weighted_recall": 0.7836,
+      "overall_f1": 0.7689,
+      "confusion_matrix": [
+        [
+          889,
+          85
+        ],
+        [
+          206,
+          165
+        ]
+      ],
+      "best_params": {
+        "maxDepth": 8,
+        "numTrees": 100,
+        "featureSubsetStrategy": "sqrt"
+      },
+      "fit_seconds": 65.4
+    },
+    {
+      "name": "Gradient Boosted Trees",
+      "accuracy": 0.7755,
+      "precision": 0.6177,
+      "recall": 0.4879,
+      "f1": 0.5452,
+      "roc_auc": 0.8293,
+      "pr_auc": 0.6278,
+      "weighted_precision": 0.7638,
+      "weighted_recall": 0.7755,
+      "overall_f1": 0.7666,
+      "confusion_matrix": [
+        [
+          862,
+          112
+        ],
+        [
+          190,
+          181
+        ]
+      ],
+      "best_params": {
+        "maxIter": 50,
+        "maxDepth": 5
+      },
+      "fit_seconds": 18.51
+    },
+    {
+      "name": "Linear SVC",
+      "accuracy": 0.7903,
+      "precision": 0.707,
+      "recall": 0.4097,
+      "f1": 0.5188,
+      "roc_auc": 0.8274,
+      "pr_auc": 0.6517,
+      "weighted_precision": 0.7788,
+      "weighted_recall": 0.7903,
+      "overall_f1": 0.7702,
+      "confusion_matrix": [
+        [
+          911,
+          63
+        ],
+        [
+          219,
+          152
+        ]
+      ],
+      "best_params": {
+        "maxIter": 100,
+        "regParam": 0.1
+      },
+      "fit_seconds": 6.29
+    }
+  ],
+  "top_features": [
+    {
+      "rank": 1,
+      "feature": "Contract_vec_Month-to-month",
+      "importance": 0.105926
+    },
+    {
+      "rank": 2,
+      "feature": "ChargeDifference",
+      "importance": 0.104031
+    },
+    {
+      "rank": 3,
+      "feature": "tenure",
+      "importance": 0.080738
+    },
+    {
+      "rank": 4,
+      "feature": "TenureRatio",
+      "importance": 0.079776
+    },
+    {
+      "rank": 5,
+      "feature": "TechSupport_vec_No",
+      "importance": 0.064295
+    },
+    {
+      "rank": 6,
+      "feature": "InternetService_vec_Fiber optic",
+      "importance": 0.059104
+    },
+    {
+      "rank": 7,
+      "feature": "OnlineSecurity_vec_No",
+      "importance": 0.048251
+    },
+    {
+      "rank": 8,
+      "feature": "TotalCharges",
+      "importance": 0.046348
+    },
+    {
+      "rank": 9,
+      "feature": "MonthlyCharges",
+      "importance": 0.044244
+    },
+    {
+      "rank": 10,
+      "feature": "PaymentMethod_vec_Electronic check",
+      "importance": 0.033465
+    }
+  ],
+  "feature_importance_top10": [
+    [
+      "Contract_vec_Month-to-month",
+      0.105926
+    ],
+    [
+      "ChargeDifference",
+      0.104031
+    ],
+    [
+      "tenure",
+      0.080738
+    ],
+    [
+      "TenureRatio",
+      0.079776
+    ],
+    [
+      "TechSupport_vec_No",
+      0.064295
+    ],
+    [
+      "InternetService_vec_Fiber optic",
+      0.059104
+    ],
+    [
+      "OnlineSecurity_vec_No",
+      0.048251
+    ],
+    [
+      "TotalCharges",
+      0.046348
+    ],
+    [
+      "MonthlyCharges",
+      0.044244
+    ],
+    [
+      "PaymentMethod_vec_Electronic check",
+      0.033465
+    ]
+  ]
+}

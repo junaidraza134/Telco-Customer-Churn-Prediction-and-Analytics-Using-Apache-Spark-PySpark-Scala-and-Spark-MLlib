@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*/.venv/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints
+catboost_info/
+
+# Node modules & build
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+
+# SBT & Scala build
+target/
+*/target/
+project/target/
+*/project/target/
+project/project/
+.bsp/
+.bloop/
+
+# Temporary & checkpoint files
+*.crc
+.tmp/
+tmp/
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

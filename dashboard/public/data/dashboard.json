@@ -1,0 +1,35 @@
+{
+  "totalCustomers": 7043,
+  "churnedCount": 1869,
+  "retainedCount": 5174,
+  "churnRate": 0.2653698707936959,
+  "highRiskCount": 420,
+  "averageProbability": 0.09143286951583131,
+  "modelUsed": "Random Forest",
+  "scoredAt": "2026-10-18T21:17:30.823000",
+  "churnByContract": [
+    {
+      "contract": "Month-to-month",
+      "customers": 3875,
+      "churned": 1655,
+      "churnRate": 0.4270967741935484
+    },
+    {
+      "contract": "One year",
+      "customers": 1473,
+      "churned": 166,
+      "churnRate": 0.11269517990495587
+    },
+    {
+      "contract": "Two year",
+      "customers": 1695,
+      "churned": 48,
+      "churnRate": 0.02831858407079646
+    }
+  ],
+  "riskCounts": {
+    "High": 420,
+    "Medium": 295,
+    "Low": 6328
+  }
+}

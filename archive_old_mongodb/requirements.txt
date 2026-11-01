@@ -1,0 +1,8 @@
+pymongo
+pandas
+scikit-learn
+matplotlib
+xgboost
+lightgbm
+catboost
+imbalanced-learn

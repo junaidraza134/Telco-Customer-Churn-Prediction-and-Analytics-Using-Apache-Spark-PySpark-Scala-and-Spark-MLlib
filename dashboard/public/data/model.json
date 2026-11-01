@@ -1,0 +1,140 @@
+{
+  "selected_model": "Random Forest",
+  "test_size": 1247,
+  "train_size": 4986,
+  "churn_prevalence": 0.26537,
+  "models": [
+    {
+      "name": "XGBoost",
+      "accuracy": 0.9703,
+      "precision": 0.9108,
+      "recall": 0.9151,
+      "f1": 0.9129,
+      "roc_auc": 0.9936,
+      "confusion_matrix": [
+        [
+          1016,
+          19
+        ],
+        [
+          18,
+          194
+        ]
+      ]
+    },
+    {
+      "name": "LightGBM",
+      "accuracy": 0.9703,
+      "precision": 0.9032,
+      "recall": 0.9245,
+      "f1": 0.9138,
+      "roc_auc": 0.9935,
+      "confusion_matrix": [
+        [
+          1014,
+          21
+        ],
+        [
+          16,
+          196
+        ]
+      ]
+    },
+    {
+      "name": "CatBoost",
+      "accuracy": 0.9687,
+      "precision": 0.91,
+      "recall": 0.9057,
+      "f1": 0.9078,
+      "roc_auc": 0.994,
+      "confusion_matrix": [
+        [
+          1016,
+          19
+        ],
+        [
+          20,
+          192
+        ]
+      ]
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.9639,
+      "precision": 0.9034,
+      "recall": 0.8821,
+      "f1": 0.8926,
+      "roc_auc": 0.9907,
+      "confusion_matrix": [
+        [
+          1015,
+          20
+        ],
+        [
+          25,
+          187
+        ]
+      ]
+    },
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.915,
+      "precision": 0.7624,
+      "recall": 0.7264,
+      "f1": 0.744,
+      "roc_auc": 0.959,
+      "confusion_matrix": [
+        [
+          987,
+          48
+        ],
+        [
+          58,
+          154
+        ]
+      ]
+    }
+  ],
+  "feature_importance_top10": [
+    [
+      "num__ChargeDifference",
+      0.100722
+    ],
+    [
+      "num__TenureMonthsRatio",
+      0.070734
+    ],
+    [
+      "num__tenure",
+      0.06564
+    ],
+    [
+      "num__MonthlyCharges",
+      0.057971
+    ],
+    [
+      "num__TotalCharges",
+      0.049925
+    ],
+    [
+      "num__StreamingRatio",
+      0.049176
+    ],
+    [
+      "cat__TenureGroup_0-12",
+      0.048715
+    ],
+    [
+      "num__AvgMonthlySpend",
+      0.04238
+    ],
+    [
+      "num__HasFiberOptic",
+      0.038719
+    ],
+    [
+      "cat__InternetService_Fiber optic",
+      0.035475
+    ]
+  ]
+}

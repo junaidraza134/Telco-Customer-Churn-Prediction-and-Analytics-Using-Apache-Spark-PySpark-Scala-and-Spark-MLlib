@@ -1,0 +1,87 @@
+{
+  "k": 4,
+  "silhouette": 0.5252,
+  "sweep_results": [
+    {
+      "k": 2,
+      "silhouette": 0.5991,
+      "wssse": 19136.32
+    },
+    {
+      "k": 3,
+      "silhouette": 0.59,
+      "wssse": 13379.8
+    },
+    {
+      "k": 4,
+      "silhouette": 0.5252,
+      "wssse": 10263.43
+    },
+    {
+      "k": 5,
+      "silhouette": 0.4821,
+      "wssse": 9087.32
+    },
+    {
+      "k": 6,
+      "silhouette": 0.5011,
+      "wssse": 7538.95
+    },
+    {
+      "k": 7,
+      "silhouette": 0.4777,
+      "wssse": 6968.96
+    }
+  ],
+  "best_sweep_k": 2,
+  "best_sweep_silhouette": 0.5991,
+  "cluster_profiles": [
+    {
+      "cluster": 0,
+      "customer_count": 2115,
+      "avg_tenure": 8.2,
+      "avg_monthly_charges": 46.08,
+      "avg_total_charges": 342.08,
+      "avg_services": 0.53,
+      "avg_contract_code": 0.08,
+      "churn_rate_pct": 39.67
+    },
+    {
+      "cluster": 1,
+      "customer_count": 2116,
+      "avg_tenure": 25.6,
+      "avg_monthly_charges": 81.68,
+      "avg_total_charges": 2033.32,
+      "avg_services": 2.58,
+      "avg_contract_code": 0.19,
+      "churn_rate_pct": 38.56
+    },
+    {
+      "cluster": 2,
+      "customer_count": 1066,
+      "avg_tenure": 45.8,
+      "avg_monthly_charges": 25.55,
+      "avg_total_charges": 1176.49,
+      "avg_services": 0.34,
+      "avg_contract_code": 1.68,
+      "churn_rate_pct": 1.41
+    },
+    {
+      "cluster": 3,
+      "customer_count": 1746,
+      "avg_tenure": 61.7,
+      "avg_monthly_charges": 90.83,
+      "avg_total_charges": 5599.1,
+      "avg_services": 4.25,
+      "avg_contract_code": 1.43,
+      "churn_rate_pct": 11.4
+    }
+  ],
+  "feature_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "TotalServices",
+    "ContractCode"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "target": "MonthlyCharges",
+  "train_rows": 5698,
+  "test_rows": 1345,
+  "elastic_net": {
+    "regParam": 0.3,
+    "elasticNetParam": 0.8,
+    "test_r2": 0.9982,
+    "test_rmse": 1.2607,
+    "test_mae": 1.0265
+  },
+  "ols": {
+    "regParam": 0.0,
+    "solver": "normal",
+    "train_r2": 0.9989,
+    "test_r2": 0.9988,
+    "test_rmse": 1.0411,
+    "test_mae": 0.7923,
+    "intercept": -0.1166,
+    "coefficients": [
+      {
+        "feature": "PhoneService_yes",
+        "coefficient": 20.0604,
+        "std_error": 0.0534,
+        "t_stat": 375.4818,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "MultipleLines_yes",
+        "coefficient": 5.0205,
+        "std_error": 0.0312,
+        "t_stat": 161.0261,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "InternetService_DSL",
+        "coefficient": 25.0723,
+        "std_error": 0.0472,
+        "t_stat": 531.3435,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "InternetService_FiberOptic",
+        "coefficient": 50.0207,
+        "std_error": 0.0433,
+        "t_stat": 1154.5989,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "OnlineSecurity_yes",
+        "coefficient": 5.0057,
+        "std_error": 0.0343,
+        "t_stat": 146.1014,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "OnlineBackup_yes",
+        "coefficient": 4.9811,
+        "std_error": 0.0323,
+        "t_stat": 154.3011,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "DeviceProtection_yes",
+        "coefficient": 5.0225,
+        "std_error": 0.0337,
+        "t_stat": 148.9528,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "TechSupport_yes",
+        "coefficient": 5.0084,
+        "std_error": 0.0349,
+        "t_stat": 143.4371,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "StreamingTV_yes",
+        "coefficient": 9.9765,
+        "std_error": 0.0351,
+        "t_stat": 283.9641,
+        "p_value": 0.0,
+        "significant_at_001": true
+      },
+      {
+        "feature": "StreamingMovies_yes",
+        "coefficient": 9.9703,
+        "std_error": 0.0353,
+        "t_stat": 282.637,
+        "p_value": 0.0,
+        "significant_at_001": true
+      }
+    ]
+  }
+}

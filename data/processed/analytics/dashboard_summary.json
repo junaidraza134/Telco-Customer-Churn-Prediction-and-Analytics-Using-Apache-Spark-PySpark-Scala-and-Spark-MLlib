@@ -1,0 +1,145 @@
+{
+  "kpis": {
+    "totalCustomers": 7043,
+    "churnedCount": 1869,
+    "retainedCount": 5174,
+    "churnRate": 0.26537
+  },
+  "totalCustomers": 7043,
+  "churnedCount": 1869,
+  "retainedCount": 5174,
+  "churnRate": 0.26537,
+  "contractChurn": [
+    {
+      "contract": "Month-to-month",
+      "customers": 3875,
+      "churned": 1655,
+      "churnRate": 0.4271
+    },
+    {
+      "contract": "Two year",
+      "customers": 1695,
+      "churned": 48,
+      "churnRate": 0.02832
+    },
+    {
+      "contract": "One year",
+      "customers": 1473,
+      "churned": 166,
+      "churnRate": 0.1127
+    }
+  ],
+  "churnByContract": [
+    {
+      "contract": "Month-to-month",
+      "customers": 3875,
+      "churned": 1655,
+      "churnRate": 0.4271
+    },
+    {
+      "contract": "Two year",
+      "customers": 1695,
+      "churned": 48,
+      "churnRate": 0.02832
+    },
+    {
+      "contract": "One year",
+      "customers": 1473,
+      "churned": 166,
+      "churnRate": 0.1127
+    }
+  ],
+  "internetChurn": [
+    {
+      "internetService": "Fiber optic",
+      "customers": 3096,
+      "churned": 1297,
+      "churnRate": 0.41893
+    },
+    {
+      "internetService": "DSL",
+      "customers": 2421,
+      "churned": 459,
+      "churnRate": 0.18959
+    },
+    {
+      "internetService": "No",
+      "customers": 1526,
+      "churned": 113,
+      "churnRate": 0.07405
+    }
+  ],
+  "tenureGroupChurn": [
+    {
+      "tenureGroup": "0-12",
+      "customers": 2186,
+      "churned": 1037,
+      "churnRate": 0.47438
+    },
+    {
+      "tenureGroup": "13-24",
+      "customers": 1024,
+      "churned": 294,
+      "churnRate": 0.28711
+    },
+    {
+      "tenureGroup": "25-48",
+      "customers": 1594,
+      "churned": 325,
+      "churnRate": 0.20389
+    },
+    {
+      "tenureGroup": "49-72",
+      "customers": 2239,
+      "churned": 213,
+      "churnRate": 0.09513
+    }
+  ],
+  "paymentChurn": [
+    {
+      "paymentMethod": "Electronic check",
+      "customers": 2365,
+      "churned": 1071,
+      "churnRate": 0.45285
+    },
+    {
+      "paymentMethod": "Mailed check",
+      "customers": 1612,
+      "churned": 308,
+      "churnRate": 0.19107
+    },
+    {
+      "paymentMethod": "Bank transfer (automatic)",
+      "customers": 1544,
+      "churned": 258,
+      "churnRate": 0.1671
+    },
+    {
+      "paymentMethod": "Credit card (automatic)",
+      "customers": 1522,
+      "churned": 232,
+      "churnRate": 0.15243
+    }
+  ],
+  "cachingBenchmarkSeconds": {
+    "uncached": 2.2861,
+    "cached": 1.1779,
+    "speedup": 1.94
+  },
+  "highRiskCount": 871,
+  "averageProbability": 0.2622,
+  "avgChurnProbability": 0.2622,
+  "monthlyRevenueAtRisk": 136224.42,
+  "modelUsed": "Random Forest (PySpark)",
+  "scoredAt": "2026-10-31T16:42:04.516912+00:00",
+  "riskCounts": {
+    "High": 871,
+    "Medium": 1614,
+    "Low": 4558
+  },
+  "riskBreakdown": {
+    "High": 871,
+    "Medium": 1614,
+    "Low": 4558
+  }
+}
